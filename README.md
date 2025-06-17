@@ -31,7 +31,7 @@ PIC-Movement/
 | Notebook                                | Purpose                                                                                                                                                    | Key outputs                                         |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | **`movement-example-generating.ipynb`** | Generate a toy dataset of housing units, capacities, feasible housing type, and PIC attributes.                                                                                | CSV files in `input/DATE/`                               |
-| **`PIC-movement.ipynb`**                | Builds a MILP that minimises  $\text{PIC moves} + \texttt{WEIGHT\_MOVEMENT\_HOUSE}\cdot \text{units used}$. Reads data from `input/`, solves with PuLP (CBC), and writes results. | `output/DATE/result/output_moves.xlsx` |
+| **`PIC-movement.ipynb`**                | Builds a MILP that minimises  $\text{PIC moves} + \text{WEIGHT}\_\text{MOVEMENT}\_\text{HOUSE}\cdot \text{units used}$. Reads data from `input/`, solves with PuLP (CBC), and writes results. | `output/DATE/result/output_moves.xlsx` |
 
 ### Configuration
 
